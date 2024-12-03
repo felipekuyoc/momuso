@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6f61, #ff9a8b);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.5rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #ff9a8b;
+            color: white;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        section h1 {
+            margin-bottom: 1rem;
+        }
+        .button {
+            display: inline-block;
+            background-color: #ff6f61;
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #ff9a8b;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Modern Web</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>We create modern and responsive web designs that captivate users.</p>
+        <a href="#services" class="button">Explore Services</a>
+    </section>
+    <section id="services">
+        <h1>Our Services</h1>
+        <p>From web development to digital marketing, we have got you covered!</p>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Email us at <a href="mailto:info@modernweb.com">info@modernweb.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Modern Web. All rights reserved.</p>
+    </footer>
+</body>
+</html>
